@@ -171,6 +171,11 @@
     margin-bottom: 10px;
 }
 
+.overlay .button a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .overlay .button {
     margin-top: 20px;
     padding: 7px 20px;
@@ -245,26 +250,42 @@
     transition: 0.2s ease-in;
 }
 
+
+/*MOBILE SCREEN RESOLUTIONS*/
 /* mobile screens resolution(iphone12pro) 390 x 844 */
 @media screen and (width: 390px) and (height: 844px) {
-
-    .navbar,
-    .wrapper {
-        max-width: 84% !important;
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar form {
+    .navbar form span {
         display: none !important;
     }
 
+    .navbar form button {
+        position: relative;
+        left: 12px;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets p {
+        text-align: justify;
+        font-size: 17px;
+    }
+
+    .first-dets img {
+        width: 310px !important;
+    }
+
     .second-dets p {
+        text-align: justify;
         padding-bottom: 40%;
     }
 
-    .third-dets {
+    .brr {
+        display: none;
+    }
 
+    .third-dets {
         position: relative;
         top: -14px;
     }
@@ -273,7 +294,7 @@
         border: none;
         border: 1px solid #e9eff7;
         width: 80%;
-        height: 163vh;
+        height: 150vh;
         position: relative;
         bottom: 80px;
     }
@@ -285,7 +306,6 @@
     }
 
     .container .row .col {
-
         border-radius: 10px;
         align-self: center;
         position: relative;
@@ -295,13 +315,16 @@
     .container .row .col-f {
         border: none;
         border-bottom: 1px solid #e9eff7;
-
     }
 
     .fourth-dets .projects {
         display: flex;
         flex-direction: column;
-        padding-left: 0;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
     }
 
     .fourth-dets .button-div {
@@ -318,21 +341,1457 @@
         border-radius: 0;
     }
 
-    .first-dets img {
-        width: 230px !important;
-    }
-
-    .first-dets header,
-    .navbar-brand {
-        font-size: 12px;
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
     }
 }
 
+/* mobile screens resolution(iphone12promax) 428 x 927 */
+@media screen and (width: 428px) and (height: 927px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets img {
+        width: 310px !important;
+    }
+
+    .second-dets p {
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 150vh;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row header {
+        font-size: 25px;
+    }
+
+    .third-dets .row div {
+        font-size: 20px;
+    }
+
+    .third-dets .row p {
+        font-size: 17px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution(iphone14 pro) 393 x 853 */
+@media screen and (width: 393px) and (height: 853px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets img {
+        width: 310px !important;
+    }
+
+    .second-dets p {
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 166vh;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row header {
+        font-size: 25px;
+    }
+
+    .third-dets .row div {
+        font-size: 20px;
+    }
+
+    .third-dets .row p {
+        font-size: 17px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution(iphone14promax) 430 x 933 */
+@media screen and (width: 430px) and (height: 933px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets p {
+        font-size: 22px;
+    }
+
+    .first-dets img {
+        width: 310px !important;
+    }
+
+    .second-dets p {
+        font-size: 22px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 165vh;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row header {
+        font-size: 27px;
+    }
+
+    .third-dets .row div {
+        font-size: 22px;
+    }
+
+    .third-dets .row span {
+        font-size: 23px;
+    }
+
+    .third-dets .row p {
+        font-size: 19px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets p {
+        font-size: 21px;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .overlay .text {
+        font-size: 20px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets span {
+        font-size: 30px;
+    }
+
+    .fifth-dets p {
+        font-size: 20px;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+
 /* mobile screens resolution(iphone xr) 414 x 896 */
 @media screen and (width: 414px) and (height: 896px) {
-
-
-    .navbar form {
+    .navbar form span {
         display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets img {
+        width: 310px !important;
+    }
+
+    .second-dets p {
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 150vh;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution(iphone6/7/8) 375 x 667 */
+@media screen and (width: 375px) and (height: 667px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 21px;
+    }
+
+    .first-dets img {
+        width: 300px !important;
+    }
+
+    .second-dets p {
+        font-size: 15px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 190vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .col div {
+        font-size: 15px;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution(iphone6/7/8 +) 414 x 736 */
+@media screen and (width: 414px) and (height: 736px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 21px;
+    }
+
+    .first-dets img {
+        width: 300px !important;
+    }
+
+    .second-dets p {
+        font-size: 15px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 190vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution 360 x 800 */
+@media screen and (width: 360px) and (height: 800px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 23px;
+    }
+
+    .first-dets img {
+        width: 280px !important;
+    }
+
+    .second-dets header {
+        font-size: 26px;
+    }
+
+    .second-dets p {
+        font-size: 17px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 170vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution 393 x 873 */
+@media screen and (width: 393px) and (height: 873px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets p {
+        font-size: 20px;
+    }
+
+    .first-dets img {
+        width: 280px !important;
+    }
+
+    .second-dets p {
+        font-size: 17px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 15s0vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution 412 x 915 */
+@media screen and (width: 412px) and (height: 915px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 25px;
+    }
+
+    .first-dets p {
+        font-size: 20px;
+    }
+
+    .first-dets img {
+        width: 290px !important;
+    }
+
+    .second-dets p {
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 150vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution 360 x 781 */
+@media screen and (width: 360px) and (height: 781px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 23px;
+    }
+
+    .first-dets img {
+        width: 270px !important;
+    }
+
+    .second-dets header {
+        font-size: 25px;
+    }
+
+    .second-dets p {
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 180vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/* mobile screens resolution 375 x 812 --- Iphone x */
+@media screen and (width: 375px) and (height: 812px) {
+    .navbar form span {
+        display: none !important;
+    }
+
+    .first-dets header {
+        font-size: 23px;
+    }
+
+    .first-dets p {
+        font-size: 18px;
+    }
+
+    .first-dets img {
+        width: 300px !important;
+    }
+
+    .second-dets p {
+        font-size: 17px;
+        text-align: justify;
+        padding-bottom: 40%;
+    }
+
+    .brr {
+        display: none;
+    }
+
+    .third-dets .container {
+        border: none;
+        border: 1px solid #e9eff7;
+        width: 80%;
+        height: 15s0vh;
+        margin-bottom: 10%;
+        position: relative;
+        top: 80px;
+    }
+
+    .third-dets .row {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .row .col-f {
+        border: none;
+        border-bottom: 1px solid #e9eff7;
+    }
+
+    .fourth-dets .projects {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .fourth-dets .button-div {
+        margin-bottom: 40px;
+    }
+
+    .fifth-dets {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .fifth-dets button {
+        position: relative;
+        bottom: 12px;
+    }
+}
+
+/*DESKTOP SCREEN RESOLUTIONS*/
+/* Desktop screens resolution 1920 x 1080 */
+@media screen and (width: 1920px) and (height: 1080px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 24px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 57px;
+    }
+
+    .first-dets p {
+        font-size: 31px;
+    }
+
+    .first-dets img {
+        width: 920px !important;
+    }
+
+    .second-dets header {
+        font-size: 56px;
+    }
+
+    .second-dets p {
+        font-size: 32px;
+    }
+
+    .row {
+        width: 100% !important;
+    }
+
+    .col header {
+        font-size: 42px;
+    }
+
+    .col div {
+        font-size: 32px;
+    }
+
+    .col span {
+        font-size: 30px;
+    }
+
+    .col p {
+        font-size: 22px;
+    }
+
+    .fourth-dets header {
+        font-size: 55px;
+    }
+
+    .fourth-dets p {
+        font-size: 32px;
+    }
+
+    .image-container {
+        width: 600px;
+    }
+
+    .image-container img {
+        width: 450px;
+        height: 340px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 34px;
+        border-radius: 30px;
+    }
+
+    .overlay .text {
+        font-size: 22px;
+    }
+
+    .fifth-dets {
+        gap: 14%;
+    }
+
+    .fifth-dets span {
+        font-size: 37px;
+    }
+
+    .fifth-dets p {
+        font-size: 22px;
+    }
+
+    .fifth-dets button {
+        font-size: 25px;
+        border-radius: 30px;
+    }
+}
+
+/* Desktop screens resolution 1536 x 864 */
+@media screen and (width: 1536px) and (height: 864px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 20px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 48px;
+    }
+
+    .first-dets p {
+        font-size: 27px;
+    }
+
+    .first-dets img {
+        width: 900px !important;
+    }
+
+    .second-dets header {
+        font-size: 48px;
+    }
+
+    .second-dets p {
+        font-size: 30px;
+    }
+
+    .third-dets header {
+        font-size: 39px;
+    }
+
+    .third-dets div {
+        font-size: 23px;
+    }
+
+    .third-dets span {
+        font-size: 30px;
+    }
+
+    .fourth-dets header {
+        font-size: 48px;
+    }
+
+    .fourth-dets p {
+        font-size: 30px;
+    }
+
+    .image-container {
+        width: 375px;
+    }
+
+    .image-container img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 28px;
+        border-radius: 30px;
+    }
+
+    .overlay .text {
+        font-size: 19px;
+    }
+
+    .fifth-dets {
+        gap: 13%;
+    }
+
+    .fifth-dets span {
+        font-size: 31px;
+    }
+
+    .fifth-dets p {
+        font-size: 18px;
+    }
+
+    .fifth-dets button {
+        font-size: 19px;
+        border-radius: 30px;
+    }
+}
+
+/* Desktop screens resolution 1440 x 900 */
+@media screen and (width: 1440px) and (height: 900px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 20px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 46px;
+    }
+
+    .first-dets p {
+        font-size: 27px;
+    }
+
+    .second-dets header {
+        font-size: 46px;
+    }
+
+    .second-dets p {
+        font-size: 28px;
+    }
+
+    .third-dets header {
+        font-size: 39px;
+    }
+
+    .third-dets div {
+        font-size: 23px;
+    }
+
+    .third-dets span {
+        font-size: 30px;
+    }
+
+    .fourth-dets header {
+        font-size: 48px;
+    }
+
+    .fourth-dets p {
+        font-size: 30px;
+    }
+
+    .image-container {
+        width: 350px;
+    }
+
+    .image-container img {
+        width: 320px;
+        height: 250px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 28px;
+        border-radius: 30px;
+    }
+
+    .overlay .text {
+        font-size: 17px;
+    }
+
+    .fifth-dets {
+        gap: 10%;
+    }
+
+    .fifth-dets span {
+        font-size: 29px;
+    }
+
+    .fifth-dets p {
+        font-size: 18px;
+    }
+
+    .fifth-dets button {
+        font-size: 19px;
+        border-radius: 30px;
+    }
+}
+
+/* Desktop screens resolution 1920 x 1200 */
+@media screen and (width: 1920px) and (height: 1200px) {
+
+    .navbar-text {
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 23px;
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 60px;
+    }
+
+    .first-dets p {
+        font-size: 36px;
+    }
+
+    .first-dets img {
+        width: 1100px !important;
+    }
+
+    .second-dets header {
+        font-size: 60px;
+    }
+
+    .second-dets p {
+        font-size: 36px;
+        padding-bottom: 18%;
+    }
+
+    .third-dets header {
+        font-size: 48px;
+    }
+
+    .third-dets div {
+        font-size: 27px;
+    }
+
+    .third-dets span {
+        font-size: 30px;
+    }
+
+    .fourth-dets header {
+        font-size: 60px;
+    }
+
+    .fourth-dets p {
+        font-size: 36px;
+    }
+
+    .image-container {
+        width: 500px;
+    }
+
+    .image-container img {
+        width: 480px;
+        height: 300px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 35px;
+        border-radius: 30px;
+    }
+
+    .overlay .text {
+        font-size: 25px;
+    }
+
+    .overlay .button {
+        font-size: 20px;
+    }
+
+    .fifth-dets {
+        gap: 10%;
+    }
+
+    .fifth-dets span {
+        font-size: 47px;
+    }
+
+    .fifth-dets p {
+        font-size: 27px;
+    }
+
+    .fifth-dets button {
+        font-size: 24px;
+        border-radius: 30px;
+    }
+}
+
+/* Desktop screens resolution 2560 x 1600 */
+@media screen and (width: 2560px) and (height: 1600px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 30px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 80px;
+    }
+
+    .first-dets p {
+        font-size: 47px;
+    }
+
+    .first-dets img {
+        width: 1200px !important;
+    }
+
+    .second-dets header {
+        font-size: 80px;
+    }
+
+    .second-dets p {
+        font-size: 42px;
+        padding-bottom: 18%;
+    }
+
+    .third-dets header {
+        font-size: 48px;
+    }
+
+    .third-dets div {
+        font-size: 29px;
+    }
+
+    .third-dets span {
+        font-size: 33px;
+    }
+
+    .fourth-dets header {
+        font-size: 80px;
+    }
+
+    .fourth-dets p {
+        font-size: 42px;
+    }
+
+    .image-container {
+        width: 680px;
+    }
+
+    .image-container img {
+        width: 680px;
+        height: 500px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 55px;
+        border-radius: 35px;
+    }
+
+    .overlay .text {
+        font-size: 33px;
+    }
+
+    .overlay .button {
+        font-size: 32px;
+    }
+
+    .fifth-dets {
+        gap: 14%;
+    }
+
+    .fifth-dets span {
+        font-size: 52px;
+    }
+
+    .fifth-dets p {
+        font-size: 35px;
+    }
+
+    .fifth-dets button {
+        font-size: 30px;
+        border-radius: 30px;
+    }
+}
+
+/* Desktop screens resolution 2880 x 1800 */
+@media screen and (width: 2880px) and (height: 1800px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 40px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 80px;
+    }
+
+    .first-dets p {
+        font-size: 47px;
+    }
+
+    .first-dets img {
+        width: 1300px !important;
+    }
+
+    .second-dets header {
+        font-size: 85px;
+    }
+
+    .second-dets p {
+        font-size: 45px;
+        padding-bottom: 16%;
+    }
+
+    .third-dets header {
+        font-size: 48px;
+    }
+
+    .third-dets div {
+        font-size: 29px;
+    }
+
+    .third-dets span {
+        font-size: 33px;
+    }
+
+    .fourth-dets header {
+        font-size: 80px;
+    }
+
+    .fourth-dets p {
+        font-size: 42px;
+    }
+
+    .image-container {
+        width: 780px;
+    }
+
+    .image-container img {
+        width: 780px;
+        height: 500px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 65px;
+        border-radius: 45px;
+    }
+
+    .overlay .text {
+        font-size: 40px;
+    }
+
+    .overlay .button {
+        font-size: 40px;
+    }
+
+    .fifth-dets {
+        gap: 14%;
+    }
+
+    .fifth-dets span {
+        font-size: 52px;
+    }
+
+    .fifth-dets p {
+        font-size: 40px;
+    }
+
+    .fifth-dets button {
+        font-size: 40px;
+        border-radius: 30px;
     }
 }
