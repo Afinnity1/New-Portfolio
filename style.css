@@ -1795,3 +1795,96 @@
         border-radius: 30px;
     }
 }
+
+/* Desktop screens resolution 1920 x 1079 */
+@media screen and (width: 1920px) and (height: 1079px) {
+
+    .navbar-text,
+    .btn {
+        font-size: 23px;
+    }
+
+    .btn {
+        border-radius: 30px;
+    }
+
+    .first-dets header {
+        font-size: 50px;
+    }
+
+    .first-dets p {
+        font-size: 29px;
+    }
+
+    .first-dets img {
+        width: 700px !important;
+    }
+
+    .second-dets header {
+        font-size: 60px;
+    }
+
+    .second-dets p {
+        font-size: 30px;
+        padding-bottom: 16%;
+    }
+
+    .third-dets header {
+        font-size: 48px;
+    }
+
+    .third-dets div {
+        font-size: 25px;
+    }
+
+    .third-dets span {
+        font-size: 33px;
+    }
+
+    .fourth-dets header {
+        font-size: 48px;
+    }
+
+    .fourth-dets p {
+        font-size: 29px;
+    }
+
+    .image-container {
+        width: 480px;
+    }
+
+    .image-container img {
+        width: 480px;
+        height: 400px;
+    }
+
+    .fourth-dets .button-div a {
+        font-size: 30px;
+        border-radius: 30px;
+    }
+
+    .overlay .text {
+        font-size: 25px;
+    }
+
+    .overlay .button {
+        font-size: 25px;
+    }
+
+    .fifth-dets {
+        gap: 9%;
+    }
+
+    .fifth-dets span {
+        font-size: 40px;
+    }
+
+    .fifth-dets p {
+        font-size: 27px;
+    }
+
+    .fifth-dets button {
+        font-size: 23px;
+        border-radius: 30px;
+    }
+}
