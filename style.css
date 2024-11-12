@@ -1248,8 +1248,8 @@
     }
 }
 
-/* mobile screens resolution 375 x 811 --- Iphone x */
-@media screen and (width: 375px) and (height: 811px) {
+/* mobile screens resolution 375 x 812 --- Iphone x */
+@media screen and (width: 375px) and (height: 812px) {
     .navbar form span {
         display: none !important;
     }
